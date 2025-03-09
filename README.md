@@ -14,7 +14,7 @@ The subcritical assembly is designed to teach students about nuclear reactions a
 
 - **Graphite Bricks:** Serve as both structural support and neutron moderator.
 - **UO_2 Fuel:** Annular fuel rods with natural uranium enrichment (0.072% U-235) and aluminum cladding.
-- **Concrete Reflector:** Enhances neutron economy by reflecting neutrons back into the assembly.
+- **Concrete Structural Material:** Enhances neutron economy by reflecting neutrons back into the assembly.
 - **Plutonium–Beryllium Neutron Source:** Initiates the neutron population required for the assembly's operation.
 
 ## Assembly Dimensions
@@ -28,14 +28,17 @@ The subcritical assembly is designed to teach students about nuclear reactions a
   - **Clad Inner Radii:** 0.61875 cm
   - **Radii of the UO_2 Fuel:** 1.76125 cm
   - **Radii of Outermost Clad:** 1.92 cm
+  - **Pitch of the Fuel Rods:**: 15 cm
 
 ### Graphite Bricks
 - **Dimensions:**
   - **Length in x-direction:** 50 cm
   - **Height in y-direction:** 15 cm
   - **Width in z-direction:** 15 cm
+- **Brick Arrangement:**
+  This assembly is made up of 300 graphite bricks with a total dimension size of 100 cm x 100 cm by 150 cm in the y-z-x direction respectively. Each brick with the dimensions listed above. 
 - **Fuel Arrangement:**  
-  Each brick features a central hole for fuel placement that is the same radii as the outermost cladding of the fuel. Along the z-axis of the brick, three UO_2 fuel rods are inserted. The combined length of these rods is 135 cm, with an additional 15 cm gap filled by air.
+  Each brick features a central hole for fuel placement that is the same radii as the outermost cladding of the fuel. Along the z-axis of the brick, three UO_2 fuel rods are inserted end to end. The combined length of these rods is 135 cm, with an additional 15 cm gap filled by air.
 
 ### Concrete Reflector
 - **Dimensions:**
