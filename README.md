@@ -3,14 +3,14 @@
 This repository contains an OpenMC model of the subcritical assembly at Oregon State University's Radiation Center. The assembly is composed of graphite bricks, UO_2 fuel rods, a concrete reflector, and a plutonium–beryllium neutron source.
 
 ## Running the Python Script
-- Running the RadCenterSubcriticalAssemblyOUS.ipynb will require OpenMC to be installed correctly on your computer. When running the script, look at the model.run command at the very end of the script; currently, it is being multithredded to 20 threads. Change this number to what ever you feel is necessary as long as you have enough threads in your CPU. To see how many CPU threads you have, look at Task Manager and click on the Performance Tab, there you will see on the bottom-left a list of technical specifications on your CPU, look to Logical Processors, that will be the number of threads you have.
-- Take note as well to settings.particles and mesh.dimension, these values can be adjusted by the user as needed. Currently, the code will be very demanding on 20 cores due to the high values and will take a long time to compile.
-- To run any analysis on the Analysis.ipynb script, make sure the outputs from the RadCenterSubcriticalAssemblyOUS.ipynb such as the tallies.xml, summary.xml, and the statepoint file are placed in the analysis folder. The script will not run at all if they are not present.
-- If you change any parameters on the RadCenterSubcriticalAssemblyOUS.ipynb such as mesh dimension size, or the number of batches, some parameters on the Analysis.ipynb will need to be changed as a result to match. Running the script will tell you what you need to change. 
+- Running the “RadCenterSubcriticalAssemblyOSU.ipynb” will require OpenMC to be installed correctly on your computer. When running the script, look at the “model.run” command at the very end of the script; currently, it is being multithreaded to 20 threads. Change this number to whatever you feel is necessary if you have enough threads in your CPU. To see how many CPU threads you have, look at Task Manager and click on the Performance Tab, there you will see on the bottom-left a list of technical specifications on your CPU, look to Logical Processors, that will be the number of threads you have.
+- Take note as well to “settings.particles” and “mesh.dimension”, these values can be adjusted by the user as needed. Currently, the code will be very demanding on 20 cores due to the high values and will take a long time to compile.
+- To run any analysis on the “Analysis.ipynb” script, make sure the outputs from the “RadCenterSubcriticalAssemblyOSU.ipynb” such as the “tallies.xml”, “summary.xml”, and the statepoint file are placed in the analysis folder. The script will not run at all if they are not present.
+- If you change any parameters on the “RadCenterSubcriticalAssemblyOSU.ipynb” such as mesh dimension size, or the number of batches, some parameters on the “Analysis.ipynb” will need to be changed as a result to match. Running the script will tell you what you need to change. 
 
 ## Overview
 
-The subcritical assembly is designed to teach students about nuclear reactions and how to take measurements for a reactor. The main components of the assebmbly are as follows:
+The subcritical assembly is designed to teach students about nuclear reactions and how to take measurements for reactors. The main components of the assembly are as follows:
 
 - **Graphite Bricks:** Serve as both structural support and neutron moderator.
 - **UO_2 Fuel:** Annular fuel rods with natural uranium enrichment (0.072% U-235) and aluminum cladding.
@@ -64,4 +64,4 @@ The subcritical assembly is designed to teach students about nuclear reactions a
 - https://docs.openmc.org/en/stable/
 
 ## acknowledgements
-- Thank you to Dr. Steve Reese for providing necessary information to model this subcritical assembly such as the dimensions of the overall assembly, the x-y locations of each brick, the composition of the fuel and concrete, and the dimensions of the PuBe neutron source. 
+- Thank you to Dr. Steve Reese for providing necessary information to model this subcritical assembly such as the dimensions of the overall assembly, the x-y locations of each brick, the composition of the fuel and concrete, and the dimensions of the PuBe neutron source.
